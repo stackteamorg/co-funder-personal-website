@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[IndexController::class,'index']);
-Route::get('/2',[IndexController::class,'index2']);
-Route::get('/3',[IndexController::class,'index3']);
+Route::prefix('/')->group(function () {
+    Route::get('', [IndexController::class, 'index']);
+    Route::get('2', [IndexController::class, 'index2']);
+    Route::get('3', [IndexController::class, 'index3']);
+});
