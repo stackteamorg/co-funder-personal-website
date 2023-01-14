@@ -74,12 +74,13 @@
                 <div class="dtr-header-right">
                     <div class="main-navigation dtr-menu-dark">
                         <ul class="sf-menu dtr-scrollspy dtr-nav dark-nav-on-load dark-nav-on-scroll">
-                            <li> <a class="nav-link" href="#home">Home</a> </li>
-                            <li> <a class="nav-link" href="#about">About</a> </li>
-                            <li> <a class="nav-link" href="#services">Services</a> </li>
-                            <li> <a class="nav-link" href="#portfolio">Works</a> </li>
-                            <li> <a class="nav-link" href="#blog">Blog</a> </li>
-                            <li> <a class="nav-link" href="#contact">Contact</a> </li>
+                            <li> <a class="nav-link" href="#home">{{ __('text.Home') }}</a> </li>
+                            <li> <a class="nav-link" href="#about">{{ __('text.About') }}</a> </li>
+                            {{-- <li> <a class="nav-link" href="#blog">{{ __('text.Blog') }}</a> </li> --}}
+                            <li> <a class="nav-link" href="#services">{{ __('text.Services') }}</a> </li>
+                            <li> <a class="nav-link" href="#contact">{{ __('text.Contact') }}</a> </li>
+                            {{-- <li> <a class="nav-link" href="#portfolio">{{ __('text.Works') }}</a> </li> --}}
+                            <li> <a class="nav-link" href="#portfolio">{{ __('text.onlineـpayment') }}</a> </li>
                         </ul>
                     </div>
                 </div>

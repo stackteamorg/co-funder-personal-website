@@ -8,11 +8,11 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return view('home-personal');
+        return view('home-agency');
     }
     public function index2()
     {
-        return view('home-agency');
+        return view('home-personal');
     }
     public function index3()
     {

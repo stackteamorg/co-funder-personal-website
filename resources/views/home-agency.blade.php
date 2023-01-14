@@ -7,100 +7,85 @@
         
             <!-- hero section starts
     ================================================== -->
-            <section id="home" class="dtr-section dtr-hero-section-top-padding dtr-pb-100">
-                <div class="container"> 
+    <section id="home" class="dtr-section dtr-hero-section-top-padding dtr-pb-100">
+        <div class="container"> 
+            
+            <!--===== row 1 starts =====-->
+            <div class="row"> 
+                
+                <!-- column 2 starts -->
+                <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/6.jpg" alt="image"> </div>
+                <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/1.jpg" alt="image"> </div>
+                <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/2.jpg" alt="image"> </div>
+                <!-- column 2 ends -->                       
+                <!-- column 1 starts -->
+                <div class="col-12 col-md-6" dir="rtl"> 
+                    <!-- intro text -->
+                    <p class="text-size-xxl font-weight-300 color-dark">سلام</p>
+                    <p class="text-size-xxl font-weight-300 color-dark"> من  <span class="font-weight-500">مهدی همیلی هستم</span></p>
+                    <div class="spacer-20"></div>
+                    <!-- animated text starts -->
+                    <h3><span class="dtr-animated-headline push"> <span class="dtr-words-wrapper"> 
+                        </span> </span></h3>
+                    <!-- animated text ends --> 
+                </div>
+                <!-- column 1 ends --> 
+                
+
+                
+                {{-- <!-- column 3 starts -->
+                <div class="col-12 col-md-4 small-device-space"> 
                     
-                    <!--===== row 1 starts =====-->
-                    <div class="row"> 
-                        
-                        <!-- column 1 starts -->
-                        <div class="col-12 col-md-6"> 
-                            
-                            <!-- intro text -->
-                            
-                            <p class="text-size-xxl font-weight-300 color-dark">Hello,</p>
-                            <p class="text-size-xxl font-weight-300 color-dark">We are <span class="font-weight-500">Modak</span></p>
-                            <div class="spacer-20"></div>
-                            <!-- animated text starts -->
-                            <h3><span class="dtr-animated-headline push"> <span class="dtr-words-wrapper"> 
-                                
-                                <!-- first visible word --> 
-                                <b class="is-visible"><span class="color-blue">Technical Arts</span></b> 
-                                <!-- first visible word ends --> 
-                                
-                                <!-- second word --> 
-                                <b class="is-hidden"><span class="color-blue">Creative Direction</span></b> 
-                                <!-- second word ends --> 
-                                
-                                </span> </span></h3>
-                            <!-- animated text ends --> 
-                        </div>
-                        <!-- column 1 ends --> 
-                        
-                        <!-- column 2 starts -->
-                        <div class="col-12 col-md-2"> 
-                            
-                            <!--=== img slider - 3col starts ===-->
-                            <div class="dtr-slick-slider dtr-img-slider-1col dtr-rounded-img"> 
-                                <!-- img 1 -->
-                                <div> <img src="assets/images/photography_img7.jpg" alt="image"> </div>
-                                <!-- img 2 -->
-                                <div> <img src="assets/images/photography_img9.jpg" alt="image"> </div>
-                                <!-- img 3 -->
-                                <div> <img src="assets/images/photography_img8.jpg" alt="image"> </div>
-                            </div>
-                            <!--=== img slider - 3col ends ===--> 
-                            
-                        </div>
-                        <!-- column 2 ends --> 
-                        
-                        <!-- column 3 starts -->
-                        <div class="col-12 col-md-4 small-device-space"> 
-                            
-                            <!-- video box starts -->
-                            <div class="dtr-video-wrapper dtr-rounded-img video-button-light"> 
-                                <!-- image --> 
-                                <img src="assets/images/blogpost-img2.jpg" alt="image"> 
-                                <!-- button -->
-                                <div class="dtr-video-wrapper-inner"> <a class="dtr-video-popup dtr-video-button" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=kuceVNBTJio"><span class="dtr-video-button-wrap-inner"></span> <span class="dtr-border-animation dtr-border-1"></span> <span class="dtr-border-animation dtr-border-2"></span> </a> </div>
-                            </div>
-                            <!-- video box ends --> 
-                            
-                        </div>
-                        <!-- column 3 ends --> 
-                        
-                    </div>
-                    <!--===== row 1 ends =====--> 
-                    <!--===== row 2 starts =====-->
-                    <div class="row dtr-mt-30"> 
-                        
-                        <!-- column 1 starts -->
-                        <div class="col-12 col-md-10"> 
-                            
-                            <!-- text -->
-                            <p class="text-size-md">We help our clients create <span class="font-weight-500 color-dark">brands</span>, build digital <span class="font-weight-500 color-dark">products</span> and <span class="font-weight-500 color-dark">services</span>, innovate, find opportunities, and validate ideas.</p>
-                            
-                            <!-- social starts -->
-                            <ul class="dtr-social dtr-social-list dtr-styled-social text-left dtr-mt-30">
-                                <li class="dtr-social-title font-weight-500 color-dark">Follow Me on</li>
-                                <li><a href="#" class="dtr-social-button dtr-instagram" target="_blank" title="instagram"><span>Follow on Instagram</span></a></li>
-                                <li><a href="#" class="dtr-social-button dtr-facebook" target="_blank" title="facebook"><span>Like On Facebook</span></a></li>
-                                <li><a href="#" class="dtr-social-button dtr-linkedin" target="_blank" title="linkedin"><span>View Profile</span></a></li>
-                            </ul>
-                            <!-- social ends --> 
-                            
-                        </div>
-                        <!-- column 1 ends --> 
-                        
-                        <!-- column 2 starts -->
-                        <div class="col-12 col-md-2 dtr-rounded-img small-device-space"> <img src="assets/images/experience-img.jpg" alt="image"> </div>
-                        <!-- column 2 ends --> 
-                        
-                    </div>
-                    <!--===== row 2 ends =====--> 
+                    <!--=== img slider - 3col starts ===-->
+                    <div class="dtr-slick-slider dtr-img-slider-1col dtr-rounded-img"> 
+                        <!-- img 1 -->
+                        <div> <img src="http://homeily.ir/assets/images/me/slider/1.jpg" alt="image"> </div>
+                        <!-- img 2 -->
+                        <div> <img src="http://homeily.ir/assets/images/me/slider/2.jpg" alt="image"> </div>
+                        <!-- img 3 -->
+                        <div> <img src="http://homeily.ir/assets/images/me/slider/3.jpg" alt="image"> </div>
+                        <!-- img 4 -->
+                        <div> <img src="http://homeily.ir/assets/images/me/slider/4.jpg"> </div>
+                        <!-- img 5 -->
+                        <div> <img src="http://homeily.ir/assets/images/me/slider/6.jpg"> </div>
+                     </div>
+                    <!--=== img slider - 3col ends ===--> 
                     
                 </div>
-            </section>
+                <!-- column 3 ends -->  --}}
+                
+            </div>
+            <!--===== row 1 ends =====--> 
+            <!--===== row 2 starts =====-->
+            <div class="row dtr-mt-30"> 
+                
+                <!-- column 1 starts -->
+                <div class="col-12 col-md-10"> 
+                    
+                    <!-- text -->
+                    <p class="text-size-md"> سلام من <span class="font-weight-500 color-dark"> مهدی همیلی </span>, هستم <span class="font-weight-500 color-dark"> مهندس نرم افزار، مدرس برنامه نویسی </span> و <span class="font-weight-500 color-dark"> مشاور ارشد امور فنی </span>, به وبسایت شخصی بنده خوش‌آمدید از طریق لینک های زیر من را در ,<span class="font-weight-500 color-dark"> شبکه های اجتماعی </span> ,  دنبال کنید .</p>
+                    
+                    <!-- social starts -->
+                    <ul class="dtr-social dtr-social-list dtr-styled-social text-left dtr-mt-30">
+                        <li class="dtr-social-title font-weight-500 color-dark">{{ __('text.Follow Me on') }}</li>
+                        <li><a href="#" class="dtr-social-button dtr-instagram" target="_blank" title="instagram"><span>{{ __('text.instagram') }}</span></a></li>
+                        <li><a href="#" class="dtr-social-button dtr-facebook" target="_blank" title="facebook"><span>{{ __('text.facebook') }}</span></a></li>
+                        <li><a href="#" class="dtr-social-button dtr-linkedin" target="_blank" title="linkedin"><span>{{ __('text.linkedin') }}</span></a></li>
+                    </ul>
+                    <!-- social ends --> 
+                    
+                </div>
+                <!-- column 1 ends --> 
+                
+                <!-- column 2 starts -->
+                <div class="col-12 col-md-2 dtr-rounded-img small-device-space"> <img src="http://homeily.ir/assets/images/instagram.png" alt="image"> </div>
+                <!-- column 2 ends --> 
+                
+            </div>
+            <!--===== row 2 ends =====--> 
+            
+        </div>
+    </section>
             <!-- hero section ends
     ================================================== --> 
             
@@ -114,7 +99,7 @@
                         
                         <!-- column 1 starts -->
                         <div class="col-12 col-md-6 small-device-space">
-                            <div class="dtr-pr-30"> <img src="assets/images/agency_img.png" alt="image"> </div>
+                            <div class="dtr-pr-30"> <img src="http://homeily.ir/assets/images/me/avatar.jpg" alt="image"> </div>
                         </div>
                         <!-- column 1 ends --> 
                         
@@ -123,22 +108,22 @@
                             
                             <!-- heading starts -->
                             <div class="dtr-styled-heading">
-                                <h2>About Us</h2>
-                                <p>Subheading or information goes here</p>
+                                <h2>{{ __('text.About me') }}</h2>
                             </div>
                             <!-- heading ends --> 
                             
                             <!-- text -->
-                            <p class="font-weight-500 color-dark">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <p class="dtr-mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehende.</p>
+                            <p class="dtr-mt-20 text-justify">
+                                سلام من  <span class="font-weight-500 color-dark">مهدی همیلی</span> هستم <span class="font-weight-500 color-dark">مهندس نرم افزار</span> و متخصص در این حوزه، سال‌های فراوان تجربه در این حوزه به من انگیزه داده است که در زمینه     <span class="font-weight-500 color-dark">آموزش و تدریس برنامه نویسی</span>، فعالیت کنم و تجربیات خودم را با عشق 💜  به  دیگران منتقل کنم، همچنین با توجه به این که سال‌ها با شرکت‌های مختلف به عنوان <span class="font-weight-500 color-dark">مدیر‌فنی</span> همکاری داشتم تجربه‌های خودم رو در قالب <span class="font-weight-500 color-dark"> مشاور امور فنی</span> به شرکت ها ارائه میدم دامنه‌ این مشاوره از <span class="font-weight-500 color-dark">تامین نیروی انسانی و استخدام</span> تا <span class="font-weight-500 color-dark">رهبری و مدیریت فنی تیم</span> گسترده بوده است، <span class="font-weight-500 color-dark">مشاوره راه اندازی استارتاپ</span> در حوزه فنی و همچنین تولید <span class="font-weight-300 color-dark">وب سایت و سامانه های تحت وب و اپلیکیشن های موبایل، وب و دسکتاپ</span> به صورت <span class="font-weight-500 color-dark">برون سپاری</span> از جمله خدماتی هست که بنده و تیم پرافتخاری که در کنار ها به موفقیت رسیده ام، در این زمینه ها خودمان را متخصص می‌دانیم و  <span class="font-weight-500 color-dark">حرفی برای گفتن داریم</span>.
+                            </p>
                             <ul class="dtr-list-inline dtr-list-left-spaced dtr-mt-20">
-                                <li><i class="icon-telephone-fill dtr-mr-10 color-blue"></i><a href="#chat" class="color-dark">sayhello@example.com</a></li>
-                                <li><i class="icon-envelope-fill dtr-mr-10 color-blue"></i><span class="color-dark">0333 567 8900</span></li>
+                                <li><i class="icon-envelope-fill dtr-mr-10 color-blue"></i><a href="mailto:contact@homeyli.ir" class="color-dark">Contact@homeyli.ir</a></li>
+                                <li><i class="icon-telephone-fill dtr-mr-10 color-blue"></i><a href="tel:+989120186223" class="color-dark">+98 912 0186 223</a></li>
                             </ul>
                             <!-- link starts --> 
-                            <a href="#" class="dtr-btn btn-blue dtr-mt-30">Get Started <i class="icon-chevron-compact-right"></i></a> </div>
-                        <!-- column 2 ends --> 
-                        
+                            <a href="http://homeily.ir/dl/resume.pdf" class="dtr-btn btn-blue dtr-mt-30" download="">دانلود رزومه</a>
+                            <a href="#ask-cooperation" class="dtr-btn btn-blue dtr-mt-30">درخواست همکاری</a>
+                        </div><!-- column 2 ends -->                 
                     </div>
                     <!--===== row 1 ends =====--> 
                     
@@ -149,94 +134,89 @@
             
             <!-- services section starts
     ================================================== -->
-            <section id="services" class="dtr-section dtr-py-100">
-                <div class="container"> 
-                    
-                    <!-- heading starts -->
-                    <div class="dtr-styled-heading heading-center">
-                        <h2>What We Offer</h2>
-                        <p>Subheading or information goes here</p>
-                    </div>
-                    <!-- heading ends -->
-                    
-                    <div class="row"> 
-                        
-                        <!-- box 1 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">01</p>
-                                <img src="assets/images/icon-3.png" alt="image">
-                                <h4 class="dtr-service-heading">Creative Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 1 ends --> 
-                        
-                        <!-- box 2 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">02</p>
-                                <img src="assets/images/icon-2.png" alt="image">
-                                <h4 class="dtr-service-heading">Technical Arts</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 2 ends --> 
-                        
-                        <!-- box 3 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">03</p>
-                                <img src="assets/images/icon-1.png" alt="image">
-                                <h4 class="dtr-service-heading">Client Engagement</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 3 ends --> 
-                        
-                        <!-- box 4 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">04</p>
-                                <img src="assets/images/icon-5.png" alt="image">
-                                <h4 class="dtr-service-heading">Analytics</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 4 ends --> 
-                        
-                        <!-- box 5 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">05</p>
-                                <img src="assets/images/icon-4.png" alt="image">
-                                <h4 class="dtr-service-heading">Development</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 5 ends --> 
-                        
-                        <!-- box 6 starts -->
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <div class="dtr-service-box bg-white">
-                                <p class="dtr-service-number color-blue">06</p>
-                                <img src="assets/images/icon-6.png" alt="image">
-                                <h4 class="dtr-service-heading">Special Ops</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid labore dolore magna.</p>
-                            </div>
-                        </div>
-                        <!-- box 6 ends --> 
-                        
-                    </div>
+    <section id="services" class="dtr-section dtr-py-100">
+        <div class="container"> 
+            
+            <!-- heading starts -->
+            <div class="dtr-styled-heading heading-center">
+                <h2>زمینه های همکاری</h2>
+                <p>باعث افتخار بنده است بتوانیم در زمینه همکاری مشترکی پیدا کنیم، موارد زیر رو مطالعه کنید و فقط با من تماس بگیرید تا بتونم راه‌نماییتون کنم</p>
+            </div>
+            <!-- heading ends -->
+            
+            <div class="row"> 
+    
+                            <!-- box consulting starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>1</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-consulting.png" alt="مشاوره امور فنی و تکنیکال">
+                        <h4 class="dtr-service-heading">مشاوره امور فنی و تکنیکال</h4>
+                                            <p class="service-subtitle">سال ها تجربه در این حوزه به من انگیزه داده تا از طریق عقد قرارداد های مشاوره به انتقال تجربیاتم در زمینه انتخاب تکنولوژی، عبور از بحران و یا ارائه بهترین راه کار ها و مسیر های پیشرفت بپردازم.</p>
+                                        </div>
                 </div>
-            </section>
+                <!-- box consulting ends --> 
+                            <!-- box cto starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>2</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-cto.png" alt="مدیریت فنی و رهبری تیم">
+                        <h4 class="dtr-service-heading">مدیریت فنی و رهبری تیم</h4>
+                                            <p class="service-subtitle">سال ها در استارتاپ های کوچک و بزرگی چون نت برگ چیلیوری و.. توسعه دهنده بودم، محیط استارتاپی را در کنار برنامه نویسی به خوبی درک کردم و خوشحال می‌شوم بتوانم در به صورت پاره وقت مدیریت و رهبری تیم های برنامه جوان ره به عهده بگیرم</p>
+                                        </div>
+                </div>
+                <!-- box cto ends --> 
+                            <!-- box recruitment starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>3</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-recruitment.png" alt="تامین نیروی فنی متخصص">
+                        <h4 class="dtr-service-heading">تامین نیروی فنی متخصص</h4>
+                                            <p class="service-subtitle">شرکت های زیادی قصد ورود به دنیای استارتاپ ها را دارند، اولین مشکل آنها نداشتن یک تیم قدرتمند در بخش تکنیکال است، من می‌توان بهترین تیم را متشکل از لیدر یا مدیرفنی و برنامه نویسان خبره را برای شما گزینش و استخدام کنم!</p>
+                                        </div>
+                </div>
+                <!-- box recruitment ends --> 
+                            <!-- box learning starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>4</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-learning.png" alt="آموزش و تدریس برنامه نویسی">
+                        <h4 class="dtr-service-heading">آموزش و تدریس برنامه نویسی</h4>
+                                            <p class="service-subtitle">شاید جذاب ترین بخش فعالیت های من همین آموزش و تدریس باشد، از این که تجربیات و علم خودم را به دیگران منتقل کنم به شدت لذت می‌برم و هیچ چیز در دنیا برای من بیش تر از تدریس برنامه نویسی لذت بخش نیست، در بخش درخواست همکاری پیام دهید تا در کلاس های آموزشی شما را ببینم</p>
+                                        </div>
+                </div>
+                <!-- box learning ends --> 
+                            <!-- box development starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>5</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-development.png" alt="برون سپاری، برنامه نویسی">
+                        <h4 class="dtr-service-heading">برون سپاری، برنامه نویسی</h4>
+                                            <p class="service-subtitle">
+    یکی از خدماتی که تیم توسعه و برنامه نویسی بنده میتواند به شما ارائه دهد تولید اپلیکیشن های تحت وب و موبایل و هرگونه تولیدات نرم افزاری مانند نرم افزار های دسکتاپ(ویندوز، مک و لینوکس)</p>
+                                        </div>
+                </div>
+                <!-- box development ends --> 
+                            <!-- box writing starts -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="dtr-service-box bg-white">
+                        <p class="dtr-service-number color-blue"><small>6</small></p>
+                        <img src="http://homeily.ir/assets/images/services/icon-writing.png" alt="نگارش مقالات تخصصی در رسانه ها">
+                        <h4 class="dtr-service-heading">نگارش مقالات تخصصی در رسانه ها</h4>
+                                            <p class="service-subtitle">بنده با خبرگزاری ها و رسانه های برجسته کشور پیرامون نشر مقالات تخصصی و نقد های مربوط به حوزه ICT فعالیت گسترده دارم، در صورت تمایل به همکاری با رسانه شما در بخش درخواست همکاری پیام ارسال کنید</p>
+                                        </div>
+                </div>
+                <!-- box writing ends --> 
+                        </div>
+        </div>
+    </section>
             
             <!-- services section ends
     ================================================== --> 
             
             <!-- testimonial section starts
     ================================================== -->
-            <section class="dtr-section overflow-hidden dtr-py-100 bg-light-blue">
+            {{-- <section class="dtr-section overflow-hidden dtr-py-100 bg-light-blue">
                 <div class="container"> 
                     
                     <!-- heading starts -->
@@ -300,13 +280,13 @@
                     <!--===== row 1 ends =====--> 
                     
                 </div>
-            </section>
+            </section> --}}
             <!-- testimonial section ends
     ================================================== --> 
             
             <!-- portfolio section starts
     ================================================== -->
-            <section id="portfolio" class="dtr-section dtr-py-100">
+            {{-- <section id="portfolio" class="dtr-section dtr-py-100">
                 <div class="container"> 
                     
                     <!-- heading starts -->
@@ -381,13 +361,13 @@
                     <!-- portfolio grid ends --> 
                     
                 </div>
-            </section>
+            </section> --}}
             <!-- portfolio section ends
     ================================================== --> 
             
             <!-- team section starts
     ================================================== -->
-            <section class="dtr-section dtr-py-100 bg-light-blue">
+            {{-- <section class="dtr-section dtr-py-100 bg-light-blue">
                 <div class="container"> 
                     
                     <!-- heading starts -->
@@ -500,13 +480,13 @@
                     <!-- row ends --> 
                     
                 </div>
-            </section>
+            </section> --}}
             <!-- team section ends
     ================================================== --> 
             
             <!-- cta section starts
     ================================================== -->
-            <section class="dtr-section parallax dtr-py-100" style="background-image: url(assets/images/background-cta.jpg);">
+            {{-- <section class="dtr-section parallax dtr-py-100" style="background-image: url(assets/images/background-cta.jpg);">
                 <div class="container"> 
                     
                     <!--== row starts ==-->
@@ -522,13 +502,13 @@
                     <!--== row ends ==--> 
                     
                 </div>
-            </section>
+            </section> --}}
             <!-- cta section ends
     ================================================== --> 
             
             <!-- blog section starts
     ================================================== -->
-            <section id="blog" class="dtr-section dtr-py-100">
+            {{-- <section id="blog" class="dtr-section dtr-py-100">
                 <div class="container"> 
                     
                     <!-- heading starts -->
@@ -605,19 +585,18 @@
                     <!--== row starts ==--> 
                     
                 </div>
-            </section>
+            </section> --}}
             <!-- blog section ends
     ================================================== --> 
             
             <!-- contact section starts
     ================================================== -->
-            <section id="contact" class="dtr-section dtr-py-100 bg-light-blue">
+            <section id="contact" class="dtr-section  dtr-py-100   bg-light-blue">
                 <div class="container"> 
-                    
                     <!-- heading starts -->
                     <div class="dtr-styled-heading">
-                        <h2>Say Hello</h2>
-                        <p>Subheading or information goes here</p>
+                        <h2>درخواست همکاری</h2>
+                        <p>از طریق فورم زیر زمینه ای که درخواست همکاری با بنده و تیم بنده را دارید را انتخاب کنید، مختصری در مورد درخواست خود بنویسید و در نهایت حتما ایمیل یا شماره همراه خود را وارد کنید تا با شما تماس بگیرم</p>
                     </div>
                     <!-- heading ends --> 
                     
@@ -629,27 +608,54 @@
                             
                             <!-- form starts -->
                             <div class="dtr-form">
-                                <form id="contactform" method="post" action="php/contact-form.php">
-                                    <fieldset>
+                                <form method="post" action="http://homeily.ir/send/ask#ask-cooperation">
+                                    <input type="hidden" name="_token" value="V8bVN2C6PmijAw5We5CIM6rEkKhRrachbVtUyNX1">                                <fieldset>
                                         <div class="dtr-form-row dtr-form-row-2col">
                                             <p class="dtr-form-column">
-                                                <input name="name"  type="text" placeholder="Name">
+                                                <input name="emailorphone" value="" class="required email" type="text" placeholder="لطفا شماره تماس و یا ایمیل خود را وارد کنید">
                                             </p>
                                             <p class="dtr-form-column">
-                                                <input name="email"  class="required email" type="text" placeholder="Email">
+                                                <input name="fullname" value="" type="text" placeholder="نام خود را وارد کنید">
                                             </p>
                                         </div>
-                                        <p>
-                                            <input name="subject"  type="text" placeholder="Subject">
+
+                                            <p>
+                                                <select name="service" type="select">
+                                                    <option selected="" disabled="">لطفا یک مورد از زمینه های همکاری موجود را انتخاب کنید</option>
+                                                    
+                                                    
+                                                    <option value="1">مشاوره امور فنی و تکنیکال</option>
+                                                    
+                                                    
+                                                    <option value="2">مدیریت فنی و رهبری تیم</option>
+                                                    
+                                                    
+                                                    <option value="3">تامین نیروی فنی متخصص</option>
+                                                    
+                                                    
+                                                    <option value="4">آموزش و تدریس برنامه نویسی</option>
+                                                    
+                                                    
+                                                    <option value="5">برون سپاری، برنامه نویسی</option>
+                                                    
+                                                    
+                                                    <option value="6">نگارش مقالات تخصصی در رسانه ها</option>
+                                                                                                    <option value="0">موارد دیگر</option>
+                                                </select>
+                                            </p>
+                                            <p>
+                                                <input name="subject" value="" type="text" placeholder="عنوان درخواست">  
+                                            </p>
+
+
+                                        <p class="antispam">Leave this empty: <br>
+                                            <input name="url">
                                         </p>
-                                        <p class="antispam">Leave this empty: <br />
-                                            <input name="url" />
-                                        </p>
                                         <p>
-                                            <textarea rows="6" name="message" id="message" class="required"  placeholder="Message"></textarea>
+                                            <textarea rows="6" name="message" id="message" class="required" placeholder="مختصری در مورد درخواست بنویسید"></textarea>
                                         </p>
                                         <p class="text-center">
-                                            <button class="dtr-btn btn-blue dtr-mt-minus30" type="submit">Send Now<i class="icon-cursor dtr-ml-15"></i></button>
+                                            <button class="dtr-btn btn-blue dtr-mt-minus30" type="submit">ارسال درخواست همکاری<i class="icon-cursor dtr-ml-15"></i></button>
                                         </p>
                                         <div id="result"></div>
                                     </fieldset>
@@ -663,19 +669,23 @@
                         <!-- column 2 starts -->
                         <div class="col-12 col-md-6">
                             <div class="dtr-pl-30">
-                                <p class="d-flex align-items-center"><i class="icon-geo-alt dtr-mr-10 text-size-md color-blue"></i><span class="font-weight-500 color-dark">Our Location</span></p>
-                                <p>PO Box 16122, Collins, Victoria 3000, Australia</p>
-                                <div class="spacer-20"></div>
-                                <p class="d-flex align-items-center"><i class="icon-clock-fill dtr-mr-10 text-size-md color-blue"></i><span class="font-weight-500 color-dark">Work Timings</span></p>
-                                <p>Mon : Sat - 10:00 am to 05:00 pm<br>Sunday : Holiday</p>
                                 
+                                <p class="d-flex align-items-center">
+            <i class="icon-phone-fill dtr-ml-10 text-size-md color-blue"></i>
+            <span class="font-weight-500 color-dark">جهت برقراری تماس مستقیم و گفتگو پیرامون زمینه های همکاری می‌توانید مستقیما با شماره زیر تماس بگیرد یا در واتساب به همین شماره پیام دهید</span>
+        </p>
+        <p class="text-align-left"><i class="icon-telephone-fill dtr-mr-10 color-blue"></i><a href="tel:+989120186223" class="color-dark">+98 912 0186 223</a></p>
+        <div class="spacer-20"></div>
+                                <p class="d-flex align-items-center">
+            <i class="icon-envelope-fill dtr-ml-10 text-size-md color-blue"></i>
+            <span class="font-weight-500 color-dark">جهت برقراری تماس مستقیم و گفتگو پیرامون زمینه های همکاری می‌توانید مستقیما به آدرس زیر ایمیل ارسال کنید</span>
+        </p>
+        <p class="text-align-left"><i class="icon-envelope-fill dtr-mr-10 color-blue"></i><a href="mailto:contact@homeyli.ir" class="color-dark">Contact@homeyli.ir</a></p>
+        <div class="spacer-20"></div>
+                                                                                                                            
                                 
                                 <!-- social starts -->
-                                <ul class="dtr-social dtr-social-list dtr-styled-social text-left dtr-mt-30">
-                                    <li><a href="#" class="dtr-social-button dtr-dribbble" target="_blank" title="dribbble"><span>Follow us</span></a></li>
-                                    <li><a href="#" class="dtr-social-button dtr-skype" target="_blank" title="skype"><span>Talk to us</span></a></li>
-                                    <li><a href="#" class="dtr-social-button dtr-google" target="_blank" title="google"><span>Share on Google</span></a></li>
-                                </ul>
+                                                    
                                 <!-- social ends --> 
                                 
                             </div>
@@ -686,7 +696,7 @@
                     <!--== row ends ==--> 
                     
                 </div>
-            </section>
+            </section>    
             <!-- contact section ends
     ================================================== --> 
 @endsection

@@ -13,31 +13,26 @@
                     <!--===== row 1 starts =====-->
                     <div class="row"> 
                         
+                        <!-- column 2 starts -->
+                        <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/6.jpg" alt="image"> </div>
+                        <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/1.jpg" alt="image"> </div>
+                        <div class="col-12 col-md-2 dtr-rounded-img"> <img src="http://homeily.ir/assets/images/me/slider/2.jpg" alt="image"> </div>
+                        <!-- column 2 ends --> 
+                                                
                         <!-- column 1 starts -->
-                        <div class="col-12 col-md-6"> 
+                        <div class="col-12 col-md-6" dir="rtl"> 
                             <!-- intro text -->
-                            <p class="text-size-xxl font-weight-300 color-dark">Hello,</p>
-                            <p class="text-size-xxl font-weight-300 color-dark">I am <span class="font-weight-500">Allan Cooper</span></p>
+                            <p class="text-size-xxl font-weight-300 color-dark">سلام</p>
+                            <p class="text-size-xxl font-weight-300 color-dark"> من  <span class="font-weight-500">مهدی همیلی هستم</span></p>
                             <div class="spacer-20"></div>
                             <!-- animated text starts -->
                             <h3><span class="dtr-animated-headline push"> <span class="dtr-words-wrapper"> 
-                                
-                                <!-- first visible word --> 
-                                <b class="is-visible"><span class="color-blue">Technical Arts</span></b> 
-                                <!-- first visible word ends --> 
-                                
-                                <!-- second word --> 
-                                <b class="is-hidden"><span class="color-blue">Creative Direction</span></b> 
-                                <!-- second word ends --> 
-                                
                                 </span> </span></h3>
                             <!-- animated text ends --> 
                         </div>
                         <!-- column 1 ends --> 
                         
-                        <!-- column 2 starts -->
-                        <div class="col-12 col-md-2 dtr-rounded-img"> <img src="/assets/images/photography_img1.jpg" alt="image"> </div>
-                        <!-- column 2 ends --> 
+
                         
                         <!-- column 3 starts -->
                         <div class="col-12 col-md-4 small-device-space"> 
@@ -45,15 +40,15 @@
                             <!--=== img slider - 3col starts ===-->
                             <div class="dtr-slick-slider dtr-img-slider-1col dtr-rounded-img"> 
                                 <!-- img 1 -->
-                                <div> <img src="/assets/images/photography_img4.jpg" alt="image"> </div>
+                                <div> <img src="http://homeily.ir/assets/images/me/slider/1.jpg" alt="image"> </div>
                                 <!-- img 2 -->
-                                <div> <img src="/assets/images/photography_img7.jpg" alt="image"> </div>
+                                <div> <img src="http://homeily.ir/assets/images/me/slider/2.jpg" alt="image"> </div>
                                 <!-- img 3 -->
-                                <div> <img src="/assets/images/photography_img6.jpg" alt="image"> </div>
+                                <div> <img src="http://homeily.ir/assets/images/me/slider/3.jpg" alt="image"> </div>
                                 <!-- img 4 -->
-                                <div> <img src="/assets/images/photography_img9.jpg" alt="image"> </div>
+                                <div> <img src="http://homeily.ir/assets/images/me/slider/4.jpg"> </div>
                                 <!-- img 5 -->
-                                <div> <img src="/assets/images/photography_img8.jpg" alt="image"> </div>
+                                <div> <img src="http://homeily.ir/assets/images/me/slider/6.jpg"> </div>
                              </div>
                             <!--=== img slider - 3col ends ===--> 
                             
@@ -69,14 +64,14 @@
                         <div class="col-12 col-md-10"> 
                             
                             <!-- text -->
-                            <p class="text-size-md">I help our clients create <span class="font-weight-500 color-dark">brands</span>, build digital <span class="font-weight-500 color-dark">products</span> and <span class="font-weight-500 color-dark">services</span>, innovate, find opportunities, and validate ideas.</p>
+                            <p class="text-size-md"> سلام من <span class="font-weight-500 color-dark"> مهدی همیلی </span>, هستم <span class="font-weight-500 color-dark"> مهندس نرم افزار، مدرس برنامه نویسی </span> و <span class="font-weight-500 color-dark"> مشاور ارشد امور فنی </span>, به وبسایت شخصی بنده خوش‌آمدید از طریق لینک های زیر من را در ,<span class="font-weight-500 color-dark"> شبکه های اجتماعی </span> ,  دنبال کنید .</p>
                             
                             <!-- social starts -->
                             <ul class="dtr-social dtr-social-list dtr-styled-social text-left dtr-mt-30">
-                                <li class="dtr-social-title font-weight-500 color-dark">Follow Me on</li>
-                                <li><a href="#" class="dtr-social-button dtr-instagram" target="_blank" title="instagram"><span>Follow on Instagram</span></a></li>
-                                <li><a href="#" class="dtr-social-button dtr-facebook" target="_blank" title="facebook"><span>Like On Facebook</span></a></li>
-                                <li><a href="#" class="dtr-social-button dtr-linkedin" target="_blank" title="linkedin"><span>View My Profile</span></a></li>
+                                <li class="dtr-social-title font-weight-500 color-dark">{{ __('text.Follow Me on') }}</li>
+                                <li><a href="#" class="dtr-social-button dtr-instagram" target="_blank" title="instagram"><span>{{ __('text.instagram') }}</span></a></li>
+                                <li><a href="#" class="dtr-social-button dtr-facebook" target="_blank" title="facebook"><span>{{ __('text.facebook') }}</span></a></li>
+                                <li><a href="#" class="dtr-social-button dtr-linkedin" target="_blank" title="linkedin"><span>{{ __('text.linkedin') }}</span></a></li>
                             </ul>
                             <!-- social ends --> 
                             
@@ -84,7 +79,7 @@
                         <!-- column 1 ends --> 
                         
                         <!-- column 2 starts -->
-                        <div class="col-12 col-md-2 dtr-rounded-img small-device-space"> <img src="/assets/images/experience-img.jpg" alt="image"> </div>
+                        <div class="col-12 col-md-2 dtr-rounded-img small-device-space"> <img src="http://homeily.ir/assets/images/instagram.png" alt="image"> </div>
                         <!-- column 2 ends --> 
                         
                     </div>
